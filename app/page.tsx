@@ -1,5 +1,6 @@
 "use client"
 
+// APP DIRECTORY VERSION
 import Image from "next/image"
 import Link from "next/link"
 import { Search, MapPin, ChevronRight, ArrowRight } from "lucide-react"
@@ -123,7 +124,7 @@ export default function Home() {
                 className="mb-10 text-6xl font-bold leading-tight text-[#002d72] fade-in"
                 style={{ fontFamily: "Halcome, Arial, sans-serif" }}
               >
-                We can help you today!
+                We can serve you now!
               </h1>
 
               <button className="rounded-xl btn-glossy btn-glossy-blue px-8 py-4 text-lg font-medium text-white slide-up delay-200">
